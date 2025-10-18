@@ -2,6 +2,8 @@
 
 %% Packages
 \usepackage{amsmath, amssymb, graphicx, hyperref}
+\usepackage[a4paper, margin=1in]{geometry}
+
 \hypersetup{
     colorlinks=true,
     urlcolor=blue,
@@ -10,19 +12,38 @@
 
 %% Title Page
 \title{
-    \includegraphics[width=0.25\textwidth]{munlogo.pdf}\\[1em]
+    \includegraphics[width=0.25\textwidth]{mun_logo.pdf}\\[1em]
     \textbf{Project Proposal: Learning Chaos – Visualizing Sensitivity in the Logistic Map}\\
     \vspace{0.5em}
     \large MATH 2030 
 }
-\author{Vasu Manocha}
-\date{October 2025}
+\author{
+    \textbf{Vasu Manocha} \\
+    \vspace{0.3em}
+    Instructor: Dr. Alexander Bihlo
+}
+
+\date{October 18, 2025}
 
 \begin{document}
 \maketitle
+\thispagestyle{empty}
+\clearpage
+
+\setcounter{page}{1}
+
 
 \section{Topic Description}
-% ( WORK IN PROGRESS)
+The goal of this project is to explore how complex, chaotic behaviour can emerge from an extremely simple mathematical rule. Specifically, the project will focus on the \textbf{logistic map}, defined by
+\[
+x_{n+1} = r\,x_n(1 - x_n),
+\]
+where \(0 < x_n < 1\) represents a normalized population and \(r\) is a control parameter. Despite the simplicity of this iterative equation, it exhibits rich dynamics—period-doubling, bifurcations, and eventually fully chaotic motion—as \(r\) increases.
+
+This phenomenon illustrates one of the central ideas of nonlinear dynamics: that deterministic systems can produce apparently random outcomes. The project aims to visualize these transitions, quantify the onset of chaos, and provide mathematical as well as computational insight into why small parameter or initial-condition changes lead to large, unpredictable effects.
+
+This investigation connects fundamental mathematics (fixed points, stability, iteration) with computational experimentation and data visualization in Python. The resulting report will combine theoretical background with visual evidence to communicate how chaos can arise in even the simplest nonlinear systems.
+
 
 \section{Research Questions}
 % (WORK IN PROGRESS)
