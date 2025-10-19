@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1760892650.13301 "proposal.tex" "proposal.pdf" "proposal" 1760892650.92868 0
+["pdflatex"] 1760903023.56625 "proposal.tex" "proposal.pdf" "proposal" 1760903024.50592 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -91,9 +91,9 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "mun_logo.pdf" 1760720146.05321 20938 47a83e1f0907c003053ae732f3080c91 ""
-  "proposal.aux" 1760892650.85165 728 fbf61039b4feaa8d190a282e6769b70c "pdflatex"
-  "proposal.out" 1760892650.85248 635 ac21a878d32e561688fd25761b96c867 "pdflatex"
-  "proposal.tex" 1760892641.48164 3756 b373cc8c61c028b491f2a0cd2de2c851 ""
+  "proposal.aux" 1760903024.42598 728 fbfe85c8fd5d5894ca9840169dd3c9a5 "pdflatex"
+  "proposal.out" 1760903024.4265 635 ac21a878d32e561688fd25761b96c867 "pdflatex"
+  "proposal.tex" 1760902864.27299 4251 a92e3fa290b807608b6a8737f484052d ""
   (generated)
   "proposal.aux"
   "proposal.log"
