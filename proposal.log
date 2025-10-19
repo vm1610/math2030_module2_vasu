@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 OCT 2025 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 OCT 2025 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -412,10 +412,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \end{document}
+l.71 \end{document}
                     [1
 
-] (./proposal.aux)
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+ (./proposal.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -424,11 +425,11 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: AC21A878D32E561688FD25761B96C867;635.
  ) 
 Here is how much of TeX's memory you used:
- 10231 strings out of 473190
- 155624 string characters out of 5715801
- 555169 words of memory out of 5000000
- 33364 multiletter control sequences out of 15000+600000
- 567907 words of font info for 71 fonts, out of 8000000 for 9000
+ 10237 strings out of 473190
+ 155734 string characters out of 5715801
+ 558169 words of memory out of 5000000
+ 33368 multiletter control sequences out of 15000+600000
+ 568244 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,404b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -436,11 +437,12 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on proposal.pdf (2 pages, 89292 bytes).
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on proposal.pdf (2 pages, 99052 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
