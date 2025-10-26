@@ -43,9 +43,56 @@ Instructor: Dr. Alexander Bihlo}
   \tableofcontents
 \end{frame}
 
-\section{Introduction}
-\begin{frame}{Motivation}
-  % To be added
+\section{Motivation}
+\begin{frame}{Why Study Chaos?}
+  \begin{block}{Key Ideas}
+    \begin{itemize}
+      \item Simple deterministic rules can lead to unpredictable, chaotic behavior.
+      \item Chaos theory explains real-world phenomena: weather, finance, biology.
+      \item The logistic map models population growth, but also period-doubling and chaos.
+      \item It's a simple gateway into understanding how complexity emerges from simplicity.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+\section{The Logistic Map}
+\begin{frame}{Model Definition}
+  \begin{block}{Logistic Map Formula}
+    \[ x_{n+1} = r x_n (1 - x_n) \]
+  \end{block}
+  \begin{block}{Terms}
+    \begin{itemize}
+      \item $x_n$: population at step $n$
+      \item $r$: growth rate parameter
+      \item Behavior depends heavily on $r$
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\section{Key Results}
+\begin{frame}{Bifurcation Diagram}
+  \begin{block}{Diagram}
+    \includegraphics[width=0.9\textwidth]{../Backend/Data/bifurcation_placeholder.png}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Sensitivity to Initial Conditions}
+  \begin{block}{Visualizing Divergence}
+    \includegraphics[width=0.9\textwidth]{../Backend/Data/sensitivity_placeholder.png}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Feigenbaum Constant Estimation}
+  \begin{block}{Zoomed Bifurcation with Annotations}
+    \includegraphics[width=0.9\textwidth]{../Backend/Data/feigenbaum_zoomed_labeled.png}
+  \end{block}
+  \begin{block}{Observation}
+    \begin{itemize}
+      \item Computed $\delta_2 \approx 4.7263$, $\delta_3 \approx 4.7500$
+      \item Close to the theoretical $\delta \approx 4.669$
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \end{document}
