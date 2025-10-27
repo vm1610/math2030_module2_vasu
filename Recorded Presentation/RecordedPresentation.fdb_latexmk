@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1761507034.56157 "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Recorded Presentation/RecordedPresentation.tex" "RecordedPresentation.pdf" "RecordedPresentation" 1761507038.11099 0
+["pdflatex"] 1761537138.95682 "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Recorded Presentation/RecordedPresentation.tex" "RecordedPresentation.pdf" "RecordedPresentation" 1761537143.04884 0
   "../Backend/Data/bifurcation_placeholder.png" 1761318260.7069 226888 a02e74d0b59b94dac8f41e9424800837 ""
   "../Backend/Data/feigenbaum_zoomed_labeled.png" 1761505466.0977 175824 3466985b4c662c7a3eff5171ad5c755e ""
   "../Backend/Data/sensitivity_placeholder.png" 1761504981.88916 270247 8905f03225e408d5a63b1b990846f2d3 ""
   "../logo/mun_logo.pdf" 1760720146.05321 20938 47a83e1f0907c003053ae732f3080c91 ""
-  "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Recorded Presentation/RecordedPresentation.tex" 1761507034.28488 2767 e8b7ffb4257c92938faf15fcce75def2 ""
+  "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Recorded Presentation/RecordedPresentation.tex" 1761537138.69749 4047 8f715c7f24a163481aeb8bbbd859a2a6 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -236,11 +236,11 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1760797777 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "RecordedPresentation.aux" 1761507038.00284 2288 f987851e4f1a47eba3e6169b584704ec "pdflatex"
-  "RecordedPresentation.nav" 1761507038.00451 1305 4fcc4b625f60e31704015bb890b0da8b "pdflatex"
-  "RecordedPresentation.out" 1761507038.00412 323 f3ccf98c6fec9de4ff19c4e03b263c5d "pdflatex"
-  "RecordedPresentation.tex" 1761507034.28488 2767 e8b7ffb4257c92938faf15fcce75def2 ""
-  "RecordedPresentation.toc" 1761507038.00455 175 42517d9bf0842457480000230fea2892 "pdflatex"
+  "RecordedPresentation.aux" 1761537142.94107 3341 21e83c44b172750281b2e29fc9b94036 "pdflatex"
+  "RecordedPresentation.nav" 1761537142.9425 1976 25ca4f2b66dd368c94a38edba1c65647 "pdflatex"
+  "RecordedPresentation.out" 1761537142.94222 514 f9f46237282757388485bf8775a75804 "pdflatex"
+  "RecordedPresentation.tex" 1761537138.69749 4047 8f715c7f24a163481aeb8bbbd859a2a6 ""
+  "RecordedPresentation.toc" 1761537142.94253 268 e8a55d5df8b84f503cbe623b57047fca "pdflatex"
   (generated)
   "RecordedPresentation.aux"
   "RecordedPresentation.log"

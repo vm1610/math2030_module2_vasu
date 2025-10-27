@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1761319795.52358 "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Class Presentation/ClassPresentation.tex" "ClassPresentation.pdf" "ClassPresentation" 1761319797.00762 0
+["pdflatex"] 1761320180.54561 "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Class Presentation/ClassPresentation.tex" "ClassPresentation.pdf" "ClassPresentation" 1761320182.00357 0
   "../logo/mun_logo.pdf" 1760720146.05321 20938 47a83e1f0907c003053ae732f3080c91 ""
-  "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Class Presentation/ClassPresentation.tex" 1761319795.30723 1079 1753ae78fe9b677ce674229709eddfa3 ""
+  "/Users/Vasu/Documents/GitHub/math2030_module2_vasu/Class Presentation/ClassPresentation.tex" 1761320180.32711 1077 0594dad3a6d45456879541e787937f2e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
@@ -211,10 +211,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1760797777 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "ClassPresentation.aux" 1761319796.92305 837 25ae6aedb1b6bd8c5e59dfad2264ddf7 "pdflatex"
-  "ClassPresentation.nav" 1761319796.9241 395 640a03f4d3f0f705896c1d8375ddfa75 "pdflatex"
-  "ClassPresentation.out" 1761319796.62922 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ClassPresentation.tex" 1761319795.30723 1079 1753ae78fe9b677ce674229709eddfa3 ""
+  "ClassPresentation.aux" 1761320181.91858 837 25ae6aedb1b6bd8c5e59dfad2264ddf7 "pdflatex"
+  "ClassPresentation.nav" 1761320181.91965 395 640a03f4d3f0f705896c1d8375ddfa75 "pdflatex"
+  "ClassPresentation.out" 1761320181.6163 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ClassPresentation.tex" 1761320180.32711 1077 0594dad3a6d45456879541e787937f2e ""
   (generated)
   "ClassPresentation.aux"
   "ClassPresentation.log"

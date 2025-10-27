@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  26 OCT 2025 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 OCT 2025 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -831,13 +831,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./RecordedPresentation.nav)
-<../logo/mun_logo.pdf, id=37, 614.295pt x 397.485pt>
+<../logo/mun_logo.pdf, id=49, 614.295pt x 397.485pt>
 File: ../logo/mun_logo.pdf Graphic file (type pdf)
 <use ../logo/mun_logo.pdf>
 Package pdftex.def Info: ../logo/mun_logo.pdf  used on input line 40.
 (pdftex.def)             Requested size: 76.82246pt x 49.70369pt.
 
-Overfull \vbox (19.6868pt too high) detected at line 40
+Overfull \vbox (32.68674pt too high) detected at line 40
  []
 
 
@@ -869,40 +869,52 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 [4
 
 ]
-<../Backend/Data/bifurcation_placeholder.png, id=233, 722.7pt x 433.62pt>
-File: ../Backend/Data/bifurcation_placeholder.png Graphic file (type png)
-<use ../Backend/Data/bifurcation_placeholder.png>
-Package pdftex.def Info: ../Backend/Data/bifurcation_placeholder.png  used on input line 78.
-(pdftex.def)             Requested size: 276.559pt x 165.9352pt.
-
 
 [5
 
- <../Backend/Data/bifurcation_placeholder.png>]
-<../Backend/Data/sensitivity_placeholder.png, id=279, 722.7pt x 361.35pt>
-File: ../Backend/Data/sensitivity_placeholder.png Graphic file (type png)
-<use ../Backend/Data/sensitivity_placeholder.png>
-Package pdftex.def Info: ../Backend/Data/sensitivity_placeholder.png  used on input line 84.
-(pdftex.def)             Requested size: 276.559pt x 138.27933pt.
+]
+<../Backend/Data/bifurcation_placeholder.png, id=314, 722.7pt x 433.62pt>
+File: ../Backend/Data/bifurcation_placeholder.png Graphic file (type png)
+<use ../Backend/Data/bifurcation_placeholder.png>
+Package pdftex.def Info: ../Backend/Data/bifurcation_placeholder.png  used on input line 93.
+(pdftex.def)             Requested size: 276.559pt x 165.9352pt.
 
 
 [6
 
- <../Backend/Data/sensitivity_placeholder.png>]
-<../Backend/Data/feigenbaum_zoomed_labeled.png, id=324, 722.7pt x 361.35pt>
-File: ../Backend/Data/feigenbaum_zoomed_labeled.png Graphic file (type png)
-<use ../Backend/Data/feigenbaum_zoomed_labeled.png>
-Package pdftex.def Info: ../Backend/Data/feigenbaum_zoomed_labeled.png  used on input line 96.
+ <../Backend/Data/bifurcation_placeholder.png>]
+<../Backend/Data/sensitivity_placeholder.png, id=365, 722.7pt x 361.35pt>
+File: ../Backend/Data/sensitivity_placeholder.png Graphic file (type png)
+<use ../Backend/Data/sensitivity_placeholder.png>
+Package pdftex.def Info: ../Backend/Data/sensitivity_placeholder.png  used on input line 99.
 (pdftex.def)             Requested size: 276.559pt x 138.27933pt.
-
-Overfull \vbox (9.7093pt too high) detected at line 96
- []
-
 
 
 [7
 
+ <../Backend/Data/sensitivity_placeholder.png>]
+<../Backend/Data/feigenbaum_zoomed_labeled.png, id=414, 722.7pt x 361.35pt>
+File: ../Backend/Data/feigenbaum_zoomed_labeled.png Graphic file (type png)
+<use ../Backend/Data/feigenbaum_zoomed_labeled.png>
+Package pdftex.def Info: ../Backend/Data/feigenbaum_zoomed_labeled.png  used on input line 115.
+(pdftex.def)             Requested size: 239.68571pt x 119.84135pt.
+
+
+[8
+
  <../Backend/Data/feigenbaum_zoomed_labeled.png>]
+
+[9
+
+]
+
+[10
+
+]
+
+[11
+
+]
 \tf@nav=\write6
 \openout6 = `RecordedPresentation.nav'.
 
@@ -918,21 +930,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `RecordedPresentation.out' has not changed.
-(rerunfilecheck)             Checksum: F3CCF98C6FEC9DE4FF19C4E03B263C5D;323.
+(rerunfilecheck)             Checksum: F9F46237282757388485BF8775A75804;514.
  ) 
 Here is how much of TeX's memory you used:
- 29028 strings out of 473190
- 613314 string characters out of 5715801
- 1010571 words of memory out of 5000000
- 51691 multiletter control sequences out of 15000+600000
- 565587 words of font info for 60 fonts, out of 8000000 for 9000
+ 29112 strings out of 473190
+ 615669 string characters out of 5715801
+ 1011572 words of memory out of 5000000
+ 51765 multiletter control sequences out of 15000+600000
+ 565892 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,123p,497b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,123p,497b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on RecordedPresentation.pdf (7 pages, 652103 bytes).
+Output written on RecordedPresentation.pdf (11 pages, 671485 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 18 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 650 PDF objects out of 1000 (max. 8388607)
+ 464 compressed objects within 5 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
 

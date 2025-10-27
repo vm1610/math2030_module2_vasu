@@ -70,6 +70,21 @@ Instructor: Dr. Alexander Bihlo}
   \end{block}
 \end{frame}
 
+\section{Methodology}
+\begin{frame}{Computational Methods}
+  \begin{block}{Implementation Overview}
+    \begin{itemize}
+      \item Implemented map in Python with NumPy and Matplotlib
+      \item Generated:
+        \begin{itemize}
+          \item Bifurcation diagrams (full and zoomed)
+          \item Sensitivity plots for close initial conditions
+          \item Feigenbaum constant estimates
+        \end{itemize}
+      \item Used Jupyter for reproducible analysis
+    \end{itemize}
+  \end{block}
+\end{frame}
 \section{Key Results}
 \begin{frame}{Bifurcation Diagram}
   \begin{block}{Diagram}
@@ -85,13 +100,48 @@ Instructor: Dr. Alexander Bihlo}
 
 \begin{frame}{Feigenbaum Constant Estimation}
   \begin{block}{Zoomed Bifurcation with Annotations}
-    \includegraphics[width=0.9\textwidth]{../Backend/Data/feigenbaum_zoomed_labeled.png}
+    \centering
+    \includegraphics[width=0.78\textwidth]{../Backend/Data/feigenbaum_zoomed_labeled.png}
   \end{block}
+
+  \vspace{-0.5em} % tighten spacing
+
   \begin{block}{Observation}
     \begin{itemize}
-      \item Computed $\delta_2 \approx 4.7263$, $\delta_3 \approx 4.7500$
-      \item Close to the theoretical $\delta \approx 4.669$
+      \item Estimated $\delta_2 \approx 4.7263$, $\delta_3 \approx 4.7500$
+      \item Close to theoretical value: $\delta \approx 4.669$
     \end{itemize}
+  \end{block}
+\end{frame}
+
+
+
+
+\section{Conclusion}
+\begin{frame}{Summary}
+  \begin{block}{Key Points}
+    \begin{itemize}
+      \item Visualized how chaos emerges in the logistic map
+      \item Demonstrated sensitive dependence and period-doubling
+      \item Estimated a universal constant with simple code
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Next Steps}
+  \begin{block}{Future Work}
+    \begin{itemize}
+      \item Automate bifurcation detection
+      \item Compute Lyapunov exponents
+      \item Explore other chaotic maps (tent, sine)
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Thank You}
+  \begin{block}{Questions?}
+    \centering
+    Thank you for your attention.
   \end{block}
 \end{frame}
 

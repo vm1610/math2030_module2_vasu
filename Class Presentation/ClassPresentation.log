@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 OCT 2025 12:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 OCT 2025 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,13 +865,13 @@ Package rerunfilecheck Info: File `ClassPresentation.out' has not changed.
 Here is how much of TeX's memory you used:
  28718 strings out of 473190
  604365 string characters out of 5715801
- 1007451 words of memory out of 5000000
+ 1008442 words of memory out of 5000000
  51417 multiletter control sequences out of 15000+600000
  560649 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,491b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on ClassPresentation.pdf (2 pages, 59589 bytes).
+Output written on ClassPresentation.pdf (2 pages, 59585 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream

@@ -444,6 +444,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncms
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT ../Backend/Data/bifurcation_placeholder.png
 INPUT ../Backend/Data/bifurcation_placeholder.png
 INPUT ../Backend/Data/bifurcation_placeholder.png
