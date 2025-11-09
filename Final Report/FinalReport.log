@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 OCT 2025 13:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 NOV 2025 00:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -330,7 +330,7 @@ Package hyperref Info: Link coloring OFF on input line 15.
 \@outlinefile=\write3
 \openout3 = `FinalReport.out'.
 
-<../logo/mun_logo.pdf, id=20, 614.295pt x 397.485pt>
+<../logo/mun_logo.pdf, id=24, 614.295pt x 397.485pt>
 File: ../logo/mun_logo.pdf Graphic file (type pdf)
 <use ../logo/mun_logo.pdf>
 Package pdftex.def Info: ../logo/mun_logo.pdf  used on input line 18.
@@ -346,27 +346,83 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo/mun_logo.pdf>] (./FinalReport.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo/mun_logo.pdf>]
+<../Backend/Data/bifurcation_placeholder.png, id=41, 722.7pt x 433.62pt>
+File: ../Backend/Data/bifurcation_placeholder.png Graphic file (type png)
+<use ../Backend/Data/bifurcation_placeholder.png>
+Package pdftex.def Info: ../Backend/Data/bifurcation_placeholder.png  used on input line 55.
+(pdftex.def)             Requested size: 422.77664pt x 253.66338pt.
+
+
+[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<../Backend/Data/feigenbaum_zoomed_labeled.png, id=51, 722.7pt x 361.35pt>
+File: ../Backend/Data/feigenbaum_zoomed_labeled.png Graphic file (type png)
+<use ../Backend/Data/feigenbaum_zoomed_labeled.png>
+Package pdftex.def Info: ../Backend/Data/feigenbaum_zoomed_labeled.png  used on input line 62.
+(pdftex.def)             Requested size: 422.77664pt x 211.38614pt.
+<../Backend/Data/sensitivity_placeholder.png, id=52, 722.7pt x 361.35pt>
+File: ../Backend/Data/sensitivity_placeholder.png Graphic file (type png)
+<use ../Backend/Data/sensitivity_placeholder.png>
+Package pdftex.def Info: ../Backend/Data/sensitivity_placeholder.png  used on input line 69.
+(pdftex.def)             Requested size: 446.26582pt x 223.13594pt.
+
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 
+      <../Backend/Data/bifurcation_placeholder.png> <../Backend/Data/feigenbaum_zoomed_labeled.png>]
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.103 \[
+        
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.103 \[
+         <../Backend/Data/sensitivity_placeholder.png>]
+<../Backend/Data/feigenbaum_deltas_plot.png, id=72, 433.62pt x 289.08pt>
+File: ../Backend/Data/feigenbaum_deltas_plot.png Graphic file (type png)
+<use ../Backend/Data/feigenbaum_deltas_plot.png>
+Package pdftex.def Info: ../Backend/Data/feigenbaum_deltas_plot.png  used on input line 111.
+(pdftex.def)             Requested size: 375.80544pt x 250.5492pt.
+
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.123 \end{document}
+                     <../Backend/Data/feigenbaum_deltas_plot.png>] (./FinalReport.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `FinalReport.out' has not changed.
-(rerunfilecheck)             Checksum: 85B7A08761B57A526D6013CABB45415E;352.
+(rerunfilecheck)             Checksum: 4740FCA0B6DB891D7FFDE5BD372ACEBB;513.
  ) 
 Here is how much of TeX's memory you used:
- 10204 strings out of 473190
- 155297 string characters out of 5715801
- 557003 words of memory out of 5000000
- 33344 multiletter control sequences out of 15000+600000
- 563554 words of font info for 54 fonts, out of 8000000 for 9000
+ 10299 strings out of 473190
+ 157595 string characters out of 5715801
+ 562229 words of memory out of 5000000
+ 33413 multiletter control sequences out of 15000+600000
+ 569793 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,321b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on FinalReport.pdf (1 page, 61039 bytes).
+ 75i,10n,79p,927b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on FinalReport.pdf (5 pages, 772834 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

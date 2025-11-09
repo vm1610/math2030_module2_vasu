@@ -17,17 +17,102 @@ Instructor: Dr. Alexander Bihlo}
 \maketitle
 
 \begin{abstract}
-% To be completed
+The logistic map $x_{n+1} = r\,x_n(1 - x_n)$ is a simple nonlinear recurrence that exhibits surprisingly complex dynamics. In this project, we explore the period-doubling route to chaos in the logistic map and demonstrate its sensitivity to initial conditions through numerical simulations. Using Python, we generate the classical bifurcation diagram of the logistic map and identify the onset of chaos at $r \approx 3.56995$. We illustrate how small differences in initial conditions lead to dramatically different outcomes and estimate the Feigenbaum constant $\delta \approx 4.669$, which governs the geometric shrinking of parameter intervals in the period-doubling cascade. Our results align closely with theoretical expectations and demonstrate deterministic unpredictability and universality in a pedagogical context.
 \end{abstract}
 
 \section{Introduction}
-% To be written
+Dynamical systems study how quantities evolve over time according to fixed rules. Even simple systems can exhibit rich behavior when nonlinearities are present. The logistic map is a one-dimensional nonlinear recurrence relation of the form:
+\[ x_{n+1} = r\,x_n(1 - x_n), \]
+where $x_n$ represents a normalized population at time $n$, and $r > 0$ is a growth-rate parameter. Though the map arises from population modeling, it is widely known for displaying chaotic behavior under deterministic rules.
+
+This project investigates the route to chaos via period-doubling bifurcations in the logistic map. We aim to understand how the system transitions from simple fixed points to increasingly complex periodic orbits and finally to aperiodic, sensitive behavior. Our work demonstrates classic results from nonlinear dynamics in a reproducible and computationally accessible way.
+\section{Mathematical Background}
+The behavior of the logistic map is governed by the value of $r$:
+\begin{itemize}
+    \item For $0 < r < 1$, the population converges to 0.
+    \item For $1 < r < 3$, the population converges to the fixed point $x^* = 1 - \frac{1}{r}$.
+    \item For $3 < r < 3.45$, the map settles into cycles of period 2.
+    \item As $r$ increases, period doubling continues: 4, 8, 16, etc.
+    \item After $r \approx 3.56995$, the system enters chaotic behavior.
+\end{itemize}
+
+This route to chaos via successive period-doubling bifurcations is called a Feigenbaum cascade. The convergence of the bifurcation points follows a geometric progression, and the ratio of successive interval widths approaches the Feigenbaum constant $\delta \approx 4.669$. These phenomena are universal across many systems with quadratic maxima.
 
 \section{Methods}
-% To be written
+\subsection*{Mathematical Approach}
+We analyzed the fixed points of the logistic map and determined their stability using the derivative $f'(x) = r(1 - 2x)$. A fixed point $x^*$ is stable if $|f'(x^*)| < 1$. The first bifurcation occurs at $r = 3$ when the derivative magnitude exceeds one.
+
+\subsection*{Computational Approach}
+Simulations were done in Python using NumPy and Matplotlib. For each $r$, we iterated the map from $x_0 = 0.5$ for 1000 steps. We discarded the first 300 iterations and plotted the remaining 700 to analyze long-term behavior. The bifurcation diagram was produced by sweeping $r$ from 2.5 to 4.0 in 5000 steps.
+
+To demonstrate sensitivity to initial conditions, we compared trajectories with $x_0 = 0.5000$ and $x'_0 = 0.5001$ at $r = 4.0$. The separation $|x_n - x'_n|$ was tracked over 50 iterations. For Feigenbaum constant estimation, we used a zoomed bifurcation diagram to identify bifurcation points $r_n$ and calculate:
+\[ \delta_n = \frac{r_{n-1} - r_{n-2}}{r_n - r_{n-1}}. \]
 
 \section{Results}
-% To be written
+\subsection*{Full Bifurcation Diagram}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{../Backend/Data/bifurcation_placeholder.png}
+\caption{Simulated bifurcation diagram of the logistic map ($2.5 \le r \le 4.0$).}
+\end{figure}
+
+\subsection*{Zoomed Bifurcation with Feigenbaum Points}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{../Backend/Data/feigenbaum_zoomed_labeled.png}
+\caption{Zoomed view of the bifurcation region with annotated $r$ values near Feigenbaum points.}
+\end{figure}
+
+\subsection*{Sensitivity to Initial Conditions}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{../Backend/Data/sensitivity_placeholder.png}
+\caption{Left: Chaotic trajectories with $x_0 = 0.5000$ and $x_0' = 0.5001$. Right: Absolute difference $|x_n - x'_n|$ (log scale) showing exponential divergence.}
+\end{figure}
+
+\subsection*{Feigenbaum Constant Estimate}
+We identified bifurcation points:
+\begin{itemize}
+  \item $r_1 \approx 3.000$
+  \item $r_2 \approx 3.449$
+  \item $r_3 \approx 3.544$
+  \item $r_4 \approx 3.564$
+\end{itemize}
+Using these, we calculate:
+\[ \delta_3 = \frac{r_3 - r_2}{r_4 - r_3} \approx \frac{0.095}{0.02} \approx 4.75. \]
+This is close to the theoretical $\delta \approx 4.669$, supporting the universality of period-doubling.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+\hline
+$n$ & $r_{n-2}$ & $r_{n-1}$ & $r_n$ & $\delta_n$ \\ \hline
+2 & 3.000 & 3.449 & 3.544 & 4.7263 \\
+3 & 3.449 & 3.544 & 3.564 & 4.7500 \\ \hline
+\end{tabular}
+\caption{Numerical estimates of the Feigenbaum constant using bifurcation points.}
+\label{tab:feigenbaum}
+\end{table}
+
+\subsection*{Automated Feigenbaum Convergence}
+To verify the consistency of our manually identified bifurcation points, we automated
+the estimation of the Feigenbaum ratios $\delta_n$.
+The program detects the first appearance of periods $2,4,8,16,32$ using a
+power-of-two period estimator with a bisection refinement for each bifurcation.
+For each successive triplet $(r_{n-2}, r_{n-1}, r_n)$ we compute
+\[
+\delta_n = \frac{r_{n-1} - r_{n-2}}{r_n - r_{n-1}}.
+\]
+Later bifurcations yield ratios that converge toward the theoretical constant
+$\delta \approx 4.669$.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{../Backend/Data/feigenbaum_deltas_plot.png}
+  \caption{Automated computation of the Feigenbaum ratios $\delta_n$ showing convergence
+  toward the universal constant $\delta \approx 4.669$.}
+  \label{fig:feigenbaum_convergence}
+\end{figure}
 
 \section{Conclusion}
 % To be written
