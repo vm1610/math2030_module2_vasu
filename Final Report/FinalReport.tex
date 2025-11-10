@@ -113,11 +113,46 @@ $\delta \approx 4.669$.
   toward the universal constant $\delta \approx 4.669$.}
   \label{fig:feigenbaum_convergence}
 \end{figure}
-
 \section{Conclusion}
-% To be written
+We used the logistic map to explore deterministic chaos. We visualized bifurcations, measured sensitivity to initial conditions, and estimated the Feigenbaum constant with good accuracy. Our Python-based approach offers reproducible insight into nonlinear dynamics.
 
+\textbf{Limitations:} Period estimates were visual and may be improved with cycle-detection algorithms. Lyapunov exponent estimation was qualitative. Future work could also explore other maps (e.g., tent map, sine map) for comparison.
+
+
+\vspace{12pt}
 \section*{References}
-% To be written
+\begin{enumerate}
+    \item May, R. M. (1976). \textit{Simple mathematical models with very complicated dynamics}. Nature, 261(5560), 459–467.
+    \item Feigenbaum, M. J. (1978). \textit{Quantitative universality for a class of nonlinear transformations}. Journal of Statistical Physics, 19(1), 25–52.
+    \item Strogatz, S. H. (2015). \textit{Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering}. 2nd ed., CRC Press.
+    \item Alligood, K. T., Sauer, T. D., \& Yorke, J. A. (1996). \textit{Chaos: An Introduction to Dynamical Systems}. Springer-Verlag.
+\end{enumerate}
+
+\appendix
+\section*{Appendix: Sample Python Code}
+\begin{verbatim}
+# Logistic Map Iteration
+r = 4.0
+x = 0.5
+for i in range(100):
+    x = r * x * (1 - x)
+    print(i, x)
+
+# Bifurcation Diagram Generation
+r_vals = np.linspace(2.5, 4.0, 8000)
+x = 0.5 * np.ones_like(r_vals)
+for i in range(1000):
+    x = r_vals * x * (1 - x)
+    if i >= 900:
+        plt.plot(r_vals, x, ',k', alpha=0.25)
+\plt.xlabel("Growth rate r")
+plt.ylabel("x")
+plt.title("Bifurcation Diagram")
+plt.savefig("bifurcation_placeholder.png", dpi=300)
+\end{verbatim}
 
 \end{document}
+
+
+
+
